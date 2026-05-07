@@ -4,7 +4,6 @@ import AdaptiveImage from './AdaptiveImage.vue'
 import KbDocIcon from './KbDocIcon.vue'
 import FeatureTabs from './FeatureTabs.vue'
 import PricingToggle from './PricingToggle.vue'
-import DevHuntBanner from './DevHuntBanner.vue'
 import './custom.css'
 
 import { watch } from 'vue'
@@ -127,7 +126,6 @@ export default {
     app.component('KbDocIcon', KbDocIcon)
     app.component('FeatureTabs', FeatureTabs)
     app.component('PricingToggle', PricingToggle)
-    app.component('DevHuntBanner', DevHuntBanner)
 
     if (typeof window !== 'undefined') {
       const refresh = () => {
